@@ -5,6 +5,7 @@
 }
 body{
   background-color: #F2F2F2;
+  font-family: 'Fraunces', serif;
 }
 
 a {
@@ -55,14 +56,13 @@ li {
   background-image: url(../img/coffee.png);
 }
 .box-title{
-  
-font-family: 'Fraunces 9pt';
-font-style: normal;
+  width: 493px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 72px; 
   color: #FEFCF7;
-  width: 493px;
   padding: 117px 0px 32px 85px;
 }
 .box-text{
