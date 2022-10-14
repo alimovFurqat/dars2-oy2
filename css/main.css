@@ -12,11 +12,12 @@ a {
 }
 
 .container {
-  width: 1300px;
-  padding: 0 20px;
+  width: 1440px;
+  padding: 0; 
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
+  padding: 0 80px
 }
 
 ul,
@@ -28,9 +29,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
-}
-.navbar{
+  padding-top: 40px;
+  padding-bottom: 48px;
 }
 
 .nav-list {
@@ -39,7 +39,7 @@ li {
 }
 
 .nav-item {
-  margin: 0 32px;
+  margin-left: 32px;
 }
 
 .nav-link {
@@ -53,6 +53,26 @@ li {
 .box{
 }
 .box-site{ 
-  background-image: url(../img/coffee.png);
   background-repeat: no-repeat;
+  background-image: url(../img/coffee.png);
+}
+.box-title{
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px; 
+  color: #FEFCF7;
+  width: 493px;
+  padding: 117px 0px 32px 85px;
+}
+.box-text{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+width: 445px;
+padding: 0 0 56px 85px;
 }
