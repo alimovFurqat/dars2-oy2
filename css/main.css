@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 .container{
   width: 1300px;
   padding: 0 20px;
@@ -23,4 +26,12 @@ ul,li{
 }
 .nav-item{
   margin: 0 32px;
+}
+.nav-link{
+  font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
 }
