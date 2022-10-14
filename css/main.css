@@ -4,6 +4,23 @@
   padding: 0;
 }
 .container{
-  width: 1280px;
+  width: 1300px;
   padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul,li{
+  list-style: none;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  margin: 0 32px;
 }
