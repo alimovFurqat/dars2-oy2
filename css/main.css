@@ -11,6 +11,7 @@ body {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 .container {
@@ -33,6 +34,7 @@ li {
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 48px;
+  margin-bottom: -48px;
 }
 
 .nav-list {
@@ -66,7 +68,8 @@ li {
   font-size: 72px;
   line-height: 72px;
   color: #FEFCF7;
-  padding: 117px 0px 32px 85px;
+  padding: 90px 0px 32px 85px;
+  margin-bottom: 16px
 }
 
 .box-text {
@@ -80,6 +83,7 @@ li {
   opacity: 0.8;
   width: 445px;
   padding: 0 0 56px 85px;
+  margin-bottom: -12px;
 }
 
 .box-link {
@@ -93,9 +97,9 @@ li {
   text-align: center;
   color: #FEFCF7;
   padding: 15px 31px;
-  display: inline-block;
-  margin-bottom: 116px;
+  
   margin-left: 85px;
+  margin-bottom: 117px;
 }
 
 .box-link:hover {
