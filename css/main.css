@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   background-color: #F2F2F2;
   font-family: 'Fraunces', serif;
 }
@@ -14,7 +15,7 @@ a {
 
 .container {
   width: 1440px;
-  padding: 0; 
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
@@ -51,47 +52,52 @@ li {
   text-transform: uppercase;
   color: #83888F;
 }
-.box-site{ 
+
+.box-site {
   background-repeat: no-repeat;
   background-image: url(../img/coffee.png);
 }
-.box-title{
+
+.box-title {
   width: 493px;
   font-family: 'Fraunces 9pt';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 72px; 
+  line-height: 72px;
   color: #FEFCF7;
   padding: 117px 0px 32px 85px;
 }
-.box-text{
+
+.box-text {
   font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #FEFCF7;
-mix-blend-mode: normal;
-opacity: 0.8;
-width: 445px;
-padding: 0 0 56px 85px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 445px;
+  padding: 0 0 56px 85px;
 }
-.box-link{
+
+.box-link {
   background: #66D2CF;
   border-radius: 6px;
   font-family: 'Fraunces 9pt';
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-color: #FEFCF7;
-padding: 15px 31px;
-display: inline-block;
-margin-bottom: 116px;
-margin-left: 85px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 31px;
+  display: inline-block;
+  margin-bottom: 116px;
+  margin-left: 85px;
 }
-.box-link:hover{
-color: #000000;
+
+.box-link:hover {
+  color: #000000;
 }
