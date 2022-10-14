@@ -92,3 +92,6 @@ display: inline-block;
 margin-bottom: 116px;
 margin-left: 85px;
 }
+.box-link:hover{
+color: #000000;
+}
